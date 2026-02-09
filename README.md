@@ -5,9 +5,9 @@ As tarefas do curso técnico ficam em uma pasta específica, e os exercícios do
 
 ## Estrutura do Repositório
 
-- `Python/feito-por-Luiz/` → códigos do Luiz  
+- `Python/feito-por-Luiz/coisas-aleatorias/` → pequenos projetos do Luiz, usados para **testes da linguagem**  
+- `Python/feito-por-Luiz/curso-em-video/` → exercícios e desafios do curso em vídeo  
 - `Python/feito-por-Viviane/` → códigos da Viviane  
-- `curso-em-video/` → exercícios e desafios do curso em vídeo  
 
 ## Participantes
 - Luiz Gabryel  
