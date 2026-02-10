@@ -7,4 +7,4 @@ elif semafaro == 'Amarelo':
    print ("nao pode passar")
    
 else:
-   print ("Não pode man")
+   print ("Não pode passar")
