@@ -1,0 +1,6 @@
+print("Exemplo de várias mensagens", end=" ")
+print("de diferentes prints", end=" ")
+print("exibidas na mesma linha")
+print("Bom", "dia", "pessoal!", sep="---")
+print("Bom", "dia", "pessoal!")
+print("Experimento     com      espaços      em     branco")
