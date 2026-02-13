@@ -1,28 +1,38 @@
-livros = []
-  
+#Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar, remover, atualizar e ver status de todos os livros.
+#ainda fazendo ajustes, ainda não está completo.
+#luiz gabryel 2026 fev
+
+print("Seja bem vindo ao Controle de Estoque de Livros")
+
+# Pede usuário e senha
+user = input("Digite seu usuário: ")
+senha = input("Digite sua senha: ")
+
+if user == "" or senha == "":  #se tiver faltando algo, ele ñ libera
+    print("Por favor, tente novvamente, faltou algo")
+else:
+    print(f"Seja bem vindo, {user}")
+
+livros = []  # lista onde fica livros
+
 while True:
-    print("\n--- Controle de Estoque de Livros ---")
-    print("1. Ver status de todos os livros")
-    print("2. Ver ou Atualizar um livro")
-    print("3. Adicionar novo livro")
-    print("4. Sair\n")
-    
-    livros = []
-    
+    print("Sistema")
+    print("1 Ver todos os livros")
+    print("2 Adicionar um livro")
+    print("3 Deslogar")
     opcao = input("Diigite sua opção:")
 
-    if opcao == "4":
-        print("Saindo")
+    if opcao == "1":  # olha os livros
+        print("--- Livros ---")
+        for livro in livros:
+            print(livro)
+        print("- Fim -")
+
+    elif opcao == "2":  #add livro
+        livro = input("Digite o nome do livro: ")
+        livros.append(livro)
+        print(f"O livro {livro} foi adicionado com sucesso!")
+
+    elif opcao == "3":  #deslogar
+        print(f"Volte sempre... {user}")
         break
-    
-    elif opcao == "3":
-        livros = input("Qual o nome do livro? ")
-        livros.append (livros)
-        
-    elif opcao =="2":
-        print = (livros)
-        
-    
-    else:
-        print("Tente Novamente")
-        print("Sistema em Atualização")
