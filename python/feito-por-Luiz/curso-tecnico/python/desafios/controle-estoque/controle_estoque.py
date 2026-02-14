@@ -1,15 +1,17 @@
 #Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar e ver status de todos os livros.
 #ainda fazendo ajustes, ainda não está completo.
 #luiz gabryel 2026 fev
-print("Seja bem vindo ao Controle de Estoque de Livros")
-# Pede usuário e senha
+
+print("Seja bem vindo ao Controle de Estoque de Livros")# Pede usuário e senha
+
 user = input("Digite seu usuário: ")
 senha = input("Digite sua senha: ")
-if user == "" or senha == "":
+if user == "" or senha == "": # ele valida se tem algo, se nao tem, nao acessa
     print("Por favor, tente novamente, faltou algo")
     exit()
 else:
     print(f"Seja bem vindo, {user}")
+    
 livros = []  # lista onde fica livros
 
 while True: #opções
