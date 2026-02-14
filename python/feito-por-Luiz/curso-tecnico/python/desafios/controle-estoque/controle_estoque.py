@@ -1,4 +1,4 @@
-#Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar, remover, atualizar e ver status de todos os livros.
+#Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar e ver status de todos os livros.
 #ainda fazendo ajustes, ainda não está completo.
 #luiz gabryel 2026 fev
 
@@ -8,8 +8,9 @@ print("Seja bem vindo ao Controle de Estoque de Livros")
 user = input("Digite seu usuário: ")
 senha = input("Digite sua senha: ")
 
-if user == "" or senha == "":  #se tiver faltando algo, ele ñ libera
-    print("Por favor, tente novvamente, faltou algo")
+if user == "" or senha == "":
+    print("Por favor, tente novamente, faltou algo")
+    exit()
 else:
     print(f"Seja bem vindo, {user}")
 
@@ -30,11 +31,11 @@ while True: #opções
 
     elif opcao == "2":  #add livro
         livro = input("Digite o nome do livro: ")
-        livros.append(livro)
-        if livro =="" or livros =="":
+        if livro == "":
             print("Tente novamente")
         else:
-            print(f"O livro {livro} foi adicionado com sucesso!")
+            livros.append(livro)
+        print(f"O livro {livro} foi adicionado com sucesso!")
 
     elif opcao == "3":  #deslogar somente se a senha for inserida
         sair = input ("Confirme sua senha, para sair: ")
