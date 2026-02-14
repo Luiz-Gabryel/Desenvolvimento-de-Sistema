@@ -53,3 +53,8 @@ while True: #opções
         else:
             print("Senha errada, tente novamente")
 
+#So parte de codigo antigo
+
+  #for livro in livros:
+            #print(livro)
+        #print("- Fim -")
