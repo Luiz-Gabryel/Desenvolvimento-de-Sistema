@@ -15,7 +15,7 @@ else:
 
 livros = []  # lista onde fica livros
 
-while True:
+while True: #opções
     print("Sistema")
     print("1 Ver todos os livros")
     print("2 Adicionar um livro")
