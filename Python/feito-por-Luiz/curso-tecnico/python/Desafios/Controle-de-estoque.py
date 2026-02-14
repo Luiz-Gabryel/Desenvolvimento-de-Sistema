@@ -34,5 +34,9 @@ while True:
         print(f"O livro {livro} foi adicionado com sucesso!")
 
     elif opcao == "3":  #deslogar
-        print(f"Volte sempre... {user}")
+        sair = input ("Confirme sua senha, para sair: ")
+        if sair == senha:
+            print(f"Volte sempre...")
+        else:
+            print("Senha errada, tente novamente")
         break
