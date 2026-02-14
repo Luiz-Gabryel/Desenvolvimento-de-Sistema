@@ -40,6 +40,7 @@ while True:
         sair = input ("Confirme sua senha, para sair: ")
         if sair == senha:
             print(f"Volte sempre...")
+            break
         else:
             print("Senha errada, tente novamente")
-    break
+
