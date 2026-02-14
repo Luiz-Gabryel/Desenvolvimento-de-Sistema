@@ -25,9 +25,16 @@ while True: #opções
 
     if opcao == "1":  # olha os livros
         print("--- Livros ---")
-        for livro in livros:
-            print(livro)
+        if not livros:
+            print("Nenhum livro cadastrado.")
+        else:
+            for livro in livros:
+                print(livro)
         print("- Fim -")
+                
+        #for livro in livros:
+            #print(livro)
+        #print("- Fim -")
 
     elif opcao == "2":  #add livro
         livro = input("Digite o nome do livro: ")
