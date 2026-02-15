@@ -16,11 +16,10 @@ livros = []  # lista onde fica livros
 
 while True: #opções
     print("--- Sistema ---")
-
     print("1 Ver todos os livros")
     print("2 Adicionar um livro")
     print("3 Deslogar")
-
+    print("-"*30)
     opcao = input("Diigite sua opção:")
 
     if opcao == "1":  # olha os livros
