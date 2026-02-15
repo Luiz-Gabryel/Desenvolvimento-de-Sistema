@@ -26,7 +26,7 @@ while True: #opções
     if opcao == "1":  # olha os livros
         print("--- Livros ---")
     
-        if not livros:
+        if not livros: #ve se tem livros, se tem, ele mostra
             print("Nenhum livro cadastrado.")
         else:
             for livro in livros:
