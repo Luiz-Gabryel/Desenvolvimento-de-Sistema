@@ -1,15 +1,15 @@
-# 📚 Sistema de Controle de Estoque de Livros
+# Sistema de Controle de Estoque de Livros
 
 Projeto simples em Python para gerenciamento de livros via terminal, com sistema de login e menu interativo.
 
-## 🧠 Sobre o projeto
+## Sobre o projeto
 
 Este sistema foi criado como prática de lógica de programação e aprofundamento no uso da linguagem Python.
 Ele permite cadastrar e visualizar livros dentro de um pequeno controle de estoque.
 
 O projeto ainda está em desenvolvimento e receberá melhorias com o tempo.
 
-## ⚙️ Funcionalidades atuais
+## Funcionalidades atuais
 
 * Login com usuário e senha
 * Visualização de todos os livros cadastrados
@@ -17,7 +17,7 @@ O projeto ainda está em desenvolvimento e receberá melhorias com o tempo.
 * Deslogar com confirmação de senha
 * Validação básica de campos vazios
 
-## 🖥️ Como executar
+## Como executar
 
 1. Abra o terminal
 2. Navegue até a pasta do projeto
@@ -27,7 +27,7 @@ O projeto ainda está em desenvolvimento e receberá melhorias com o tempo.
 python Controle-de-estoque.py
 ```
 
-## 📂 Estrutura do sistema
+## Estrutura do sistema
 
 O programa funciona em modo terminal e utiliza:
 
@@ -35,7 +35,7 @@ O programa funciona em modo terminal e utiliza:
 * Loop principal para manter o sistema ativo
 * Verificação simples de login
 
-## 🚧 Melhorias futuras
+## Melhorias futuras
 
 * Remover livros
 * Atualizar nomes
@@ -43,11 +43,11 @@ O programa funciona em modo terminal e utiliza:
 * Sistema de níveis de acesso
 * Interface gráfica (futuramente)
 
-## 👨‍💻 Autor
+##  Autor
 
 Luiz Gabryel
 Fevereiro de 2026
 
-## 📌 Observação
+## Observação
 
-Projeto desenvolvido para estudos e evolução em Python, juntamente com o curso técnico em Desenvolvimento de Sistemas.
+Projeto desenvolvido para estudo em Python, juntamente com o curso técnico em Desenvolvimento de Sistemas.
