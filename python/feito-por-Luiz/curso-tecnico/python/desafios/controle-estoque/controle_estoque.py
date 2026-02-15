@@ -11,7 +11,7 @@ if user == "" or senha == "": # ele valida se tem algo, se nao tem, nao acessa
     exit()
 else:
     print(f"Seja bem vindo, {user}")
-    
+
 livros = []  # lista onde fica livros
 
 while True: #opções
@@ -44,7 +44,7 @@ while True: #opções
     elif opcao == "3":  #deslogar somente se a senha for inserida
         sair = input ("Confirme sua senha, para sair: ")
         if sair == senha:
-            print(f"Volte sempre...")
+            print(f"Volte sempre...{user}")
             break
         else:
             print("Senha errada, tente novamente")
