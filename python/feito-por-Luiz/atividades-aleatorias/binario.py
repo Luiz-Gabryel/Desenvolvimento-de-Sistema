@@ -1,4 +1,4 @@
-#ele pega e transforma em binario
+#ele pega texto e transforma em binario
 #luiz gabryel 2026 fev
 
 texto = input("digite qualquer coisa: ")
