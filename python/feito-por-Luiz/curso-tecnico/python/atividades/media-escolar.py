@@ -8,6 +8,8 @@ if m > 7:
     print("Sua nota e MB")
 elif m == 7:
     print("Sua nota é B")
+elif m >= 5:
+    print("Sua nota é R")
 
 
 print(f"sua nota final e {m}")
