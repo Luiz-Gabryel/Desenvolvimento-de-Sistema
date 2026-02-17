@@ -6,8 +6,8 @@ m = (n1 + n2 + n3 + n4) / 4
 
 if m >= 7:
     print("Sua nota e MB")
-elif m <= 5:
-    print("Sua nota e I")
+elif m == 7:
+    print("Sua nota e B")
 
 
 print(f"sua nota final e {m}")
