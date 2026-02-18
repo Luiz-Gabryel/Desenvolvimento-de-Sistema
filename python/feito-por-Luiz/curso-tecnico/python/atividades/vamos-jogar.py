@@ -6,7 +6,7 @@ jogar = input("Vamor jogar? ")
 if jogar == "sim":
     print("Deixa, não quero jogar")
 else:
-    print("vocâ não perdendo")
+    print("vocâ ta perdendo a oportunidade")
     
 
  
