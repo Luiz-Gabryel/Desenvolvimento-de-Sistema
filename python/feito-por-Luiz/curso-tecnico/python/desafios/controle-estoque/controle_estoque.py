@@ -29,7 +29,7 @@ while True: #opções
             print("Nenhum livro cadastrado.")
         else:
             for livro, quantidade in livros:
-                print(f"{livro} - {quantidade} exemplares")
+                print(f"{livro} - {quantidade} Livros")
         print("--- Fim ---")
                 
     elif opcao == "2":
