@@ -18,7 +18,8 @@ while True: #opções
     print("--- Sistema ---")
     print("1 Ver todos os livros")
     print("2 Adicionar um livro")
-    print("3 Deslogar")
+    print("3 Procurar um Livro")
+    print("4 Deslogar")
     print("-"*30)
     opcao = input("Digite sua opção:")
 
@@ -41,10 +42,24 @@ while True: #opções
             livros.append((livro, quantidade))
             print(f"O livro {livro} foi adicionado com sucesso!")
 
-    elif opcao == "3":  #deslogar somente se a senha for inserida
+    elif opcao == "3":
+        busca = input("Digite o nome do livro: ")
+        encontrado = False # so muda se tiver um livro foi encontrado
+        for livro, quantidade in livros: #ve  toda a lista de livro, pegando o nome e quantidade
+            if livro == busca: # se tiver ele vai mostrar livro e quantidade
+                print(f"{livro} - {quantidade} quantidade")
+                encontrado = True
+                break
+        if not encontrado:
+            print("Livro não encontrado.")
+
+    elif opcao == "4":  #deslogar somente se a senha for inserida
         sair = input("Confirme sua senha, para sair: ")
         if sair == senha:
             print(f"Volte sempre...{user}")
             break
         else:
             print("Senha errada, tente novamente")
+            
+    else:
+        print("Opção inválida, tente novamente")
