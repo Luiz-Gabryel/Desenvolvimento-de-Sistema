@@ -1,4 +1,4 @@
-#Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar e ver status de todos os livros.
+#Sistema de Controle de Estoque de Livros, com login e senha, e com opções de adicionar,ver status de todos os livros e procurar livro.
 #ainda fazendo ajustes, ainda não está completo.
 #luiz gabryel 2026 fev
 
