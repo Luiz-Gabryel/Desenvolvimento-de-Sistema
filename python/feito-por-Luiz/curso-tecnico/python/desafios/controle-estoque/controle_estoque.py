@@ -38,7 +38,7 @@ while True: #opções
             print("Tente novamente")
         else:
             livros.append(livro)
-        print(f"O livro {livro} foi adicionado com sucesso!")
+            print(f"O livro {livro} foi adicionado com sucesso!")
 
     elif opcao == "3":  #deslogar somente se a senha for inserida
         sair = input ("Confirme sua senha, para sair: ")
