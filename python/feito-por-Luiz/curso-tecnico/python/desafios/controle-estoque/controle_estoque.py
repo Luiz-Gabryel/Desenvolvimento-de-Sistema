@@ -13,6 +13,7 @@ else:
     print(f"Seja bem vindo, {user}")
 
 livros = []  # lista onde fica livros
+quantidade = [] # quantidade de livros
 
 while True: #opções
     print("--- Sistema ---")
@@ -32,16 +33,17 @@ while True: #opções
                 print(livro)
         print("--- Fim ---")
                 
-    elif opcao == "2":  #add livro
+    elif opcao == "2":
         livro = input("Digite o nome do livro: ")
         if livro == "":
             print("Tente novamente")
-        else:
-            livros.append(livro)
-            print(f"O livro {livro} foi adicionado com sucesso!")
+    else:
+        quantidade = input("Digite a quantidade: ")
+        livros.append((livro, quantidade))
+        print(f"O livro {livro} foi adicionado com sucesso!")
 
-    elif opcao == "3":  #deslogar somente se a senha for inserida
-        sair = input ("Confirme sua senha, para sair: ")
+         elif opcao == "3":  #deslogar somente se a senha for inserida
+         sair = input ("Confirme sua senha, para sair: ")
         if sair == senha:
             print(f"Volte sempre...{user}")
             break
