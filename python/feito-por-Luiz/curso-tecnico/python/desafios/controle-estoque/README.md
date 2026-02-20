@@ -13,7 +13,7 @@ O projeto ainda está em desenvolvimento e receberá melhorias com o tempo.
 
 * Login com usuário e senha
 * Visualização de todos os livros cadastrados com quantidade
-* Adição de novos livros ao estoque com quantidade de exemplares
+* Adição de novos livros ao estoque com quantidade
 * Busca de livro por nome
 * Deslogar com confirmação de senha
 * Validação básica de campos vazios
