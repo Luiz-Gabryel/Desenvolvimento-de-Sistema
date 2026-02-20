@@ -57,13 +57,13 @@ while True: #opções
     elif opcao == '4':
         remover = input('Qual livro quer remover? ')
         encontrado = False
-        for livro, quantidade in livros:
-            if livro == remover:
-                livros.remove((livro,quantidade))
+        for livro, quantidade in livros: #ve toda a lista, pegando nome e quantidade
+            if livro == remover: #compara se o livro e o mesmo que user escolheu
+                livros.remove((livro,quantidade)) #achou, ele remove
             print(f'O livro {livro} foi removido')
-            encontrado = True
+            encontrado = True # se foi encontrado e removido ele e true
             break
-        if not encontrado:
+        if not encontrado: #se nao acharam nada
                 print('Nao achamos o livro')
                 
     elif opcao == '5':  #deslogar somente se a senha for inserida
