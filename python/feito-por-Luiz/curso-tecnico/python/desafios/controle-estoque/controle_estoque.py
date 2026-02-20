@@ -19,7 +19,8 @@ while True: #opções
     print('1 Ver todos os livros')
     print('2 Adicionar um livro')
     print('3 Procurar um Livro')
-    print('4 Deslogar')
+    print('4 Remover livro')
+    print('5 Deslogar')
     print('-'*30)
     opcao = input('Digite sua opção:')
 
@@ -53,13 +54,28 @@ while True: #opções
         if not encontrado:
             print('Livro não encontrado.')
 
-    elif opcao == '4':  #deslogar somente se a senha for inserida
+    elif opcao == '4':
+        remover = input('Qual livro quer remover? ')
+        encontrado = False
+        for livro, quantidade, livros:
+            if livro == remover:
+            livros.remove((livro,quantidade))
+            print(f'O livro {livro} foi removido')
+            encontrado = True
+            break
+        if not encontrado:
+                print('Nao achamos o livro')
+                
+            
+
+    elif opcao == '5':  #deslogar somente se a senha for inserida
         sair = input('Confirme sua senha, para sair: ')
         if sair == senha:
             print(f'Volte sempre...{user}')
             break
         else:
             print('Senha errada, tente novamente')
+            
             
     else:
         print('Opção inválida, tente novamente')
