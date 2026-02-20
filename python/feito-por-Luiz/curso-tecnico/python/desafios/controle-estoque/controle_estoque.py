@@ -67,8 +67,8 @@ while True: #opções
             else: #senha errada = nao remove
                 print('Senha errada, livro não removido.')
             break
-    if not encontrado: #se nao achou
-        print('Livro não encontrado.') 
+            if not encontrado: #se nao achou
+                print('Livro não encontrado.') 
                 
     elif opcao == '5':  #deslogar somente se a senha for inserida
         sair = input('Confirme sua senha, para sair: ')
