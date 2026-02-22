@@ -91,7 +91,6 @@ Este repositório serve para:
 - Registrar minha evolução como desenvolvedor
 - Organizar exercícios e projetos
 - Criar histórico de prática
-- Montar portfólio inicial
 
 ---
 
@@ -106,4 +105,5 @@ Este repositório serve para:
 ## 📌 Observação
 
 > Este é um repositório de aprendizado.
+
 > Os códigos podem conter melhorias futuras conforme eu evoluir nos estudos.
