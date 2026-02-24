@@ -2,6 +2,8 @@
 
 Este repositório contém meus projetos, exercícios e desafios desenvolvidos durante meus estudos em Python, tanto no curso técnico quanto em cursos online.
 
+> 🗓️ Iniciado em fevereiro de 2026
+
 Atualmente estou no início da minha jornada em programação, focando principalmente em:
 
 - 🧠 Lógica de programação
@@ -15,14 +17,16 @@ Atualmente estou no início da minha jornada em programação, focando principal
 ## 📁 Estrutura do Projeto
 
 ```
-python/
-├── feito-por-Luiz
-├── feito-por-Viviane
+luiz-gabryel/
+├── curso-em-video/
+├── curso-tecnico/
+├── material-apoio/
+└── treinos/
 ```
 
 ---
 
-## 👨‍💻 feito-por-Luiz
+## 👨‍💻 luiz-gabryel
 
 Projetos e exercícios desenvolvidos por mim durante:
 
@@ -61,7 +65,21 @@ Projeto introdutório de site simples com:
 - CSS
 - Estrutura básica de layout
 
-#### 🏋️ Treinos
+### 📗 Material de Apoio
+
+Exercícios do livro *Introdução à Programação com Python*:
+
+| Exercício | Descrição |
+|---|---|
+| `exercicio-02-01.py` | Converter expressões matemáticas |
+| `exercicio-02-02.py` | Prioridade de operadores |
+| `exercicio-02-03.py` | Exibir o nome do usuário |
+| `exercicio-02-04.py` | Calcular resultado de 2a x 3b |
+| `exercicio-02-05.py` | Somar três números |
+| `exercicio-02-06.py` | Calcular aumento de 15% em salário |
+| `exercicio-02-07.py` | Comparar dois resultados |
+
+### 🏋️ Treinos
 
 Arquivos criados para praticar lógica e reforçar aprendizado:
 
@@ -70,17 +88,10 @@ Arquivos criados para praticar lógica e reforçar aprendizado:
 - `maior-ou-menor.py`
 - `soma.py`
 - `binario.py`
-- entre outros...
-
----
-
-## 👩‍💻 feito-por-Viviane
-
-Projetos e exercícios desenvolvidos pela Viviane durante o curso técnico, principalmente voltados para:
-
-- Lógica de programação
-- Exercícios básicos em Python
-- Primeiros projetos práticos
+- `idade_diferente.py`
+- `jogo.py`
+- `ola.py`
+- `sistema.py`
 
 ---
 
@@ -88,7 +99,7 @@ Projetos e exercícios desenvolvidos pela Viviane durante o curso técnico, prin
 
 Este repositório serve para:
 
-- Registrar minha evolução como desenvolvedor
+- Registrar minha evolução
 - Organizar exercícios e projetos
 - Criar histórico de prática
 
@@ -98,12 +109,11 @@ Este repositório serve para:
 
 ![Python](https://img.shields.io/badge/Python-3-blue?logo=python)
 ![HTML5](https://img.shields.io/badge/HTML-5-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![CSS3](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)
 
 ---
 
 ## 📌 Observação
 
 > Este é um repositório de aprendizado.
-
 > Os códigos podem conter melhorias futuras conforme eu evoluir nos estudos.
