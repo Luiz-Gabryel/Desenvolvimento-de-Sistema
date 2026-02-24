@@ -1,4 +1,4 @@
-#propriedade de divisao e multiplicação, ver se os resultados são iguais
+#propriedade de divisao e multiplicação, ver se os resultados são iguais.
 
 resultado1 = 0.2 * 6 + 8 * 0.3 + 7 * 0.5
 

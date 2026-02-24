@@ -1,4 +1,4 @@
-#programa que calcula aumento de 15% de um salario
+#programa que calcula aumento de 15% de um salario.
 
 salario = float(input("Qual o seu salario atual: "))
 aumento = salario * 0.15

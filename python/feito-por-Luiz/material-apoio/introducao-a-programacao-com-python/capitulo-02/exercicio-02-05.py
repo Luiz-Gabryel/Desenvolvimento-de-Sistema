@@ -1,4 +1,4 @@
-#programa que calcula a soma de três variaveis e imprime resultado
+#programa que calcula a soma de três variaveis e imprime resultado.
 
 n1 = float(input("Qual primeiro numero: "))
 n2 = float(input("Qual segundo numero: "))
