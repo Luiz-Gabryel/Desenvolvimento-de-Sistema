@@ -1,4 +1,4 @@
-#Converter expressões matematicas
+#Converter expressões matemática
 
 print(10 + 20 * 30)
 print(42 / 30)
