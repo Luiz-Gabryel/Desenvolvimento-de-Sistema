@@ -1,4 +1,4 @@
-#pede 2 numeros e entrega a soma
+#pede 2 numeros e entrega a soma.
 n1 = int(input("Qual o primeiro numero: "))
 n2 = int(input("Qual o segundo numero: "))
 
