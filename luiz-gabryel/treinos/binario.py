@@ -1,5 +1,5 @@
-#ele pega texto e transforma em binario
-#luiz gabryel 2026 fev
+#ele pega texto e transforma em binario.
+#luiz gabryel 2026 fev.
 
 texto = input("digite qualquer coisa: ")
 
