@@ -1,23 +1,13 @@
 #Programa onde dependendo do horario ele exiba a mensagem: Bom Dia, Boa Tarde, Boa Noite.
 
-#dia = input ("Qual Periodo é? (Manha, Tarde, Noite) ")
-
-#if dia == "Manha" or dia == "manhã":
-#    print("Bom Dia")
-#elif dia == "Tarde" or dia == "tarde":
-#    print("Boa Tarde")
-#elif dia == "Noite" or dia == "noite":
-#    print("Boa Noite")
-#else:
-#    print("As opções são: Manha, Tarde, Noite")
-
+nome = input("Qual seu nome: ")
 hora = int(input("Qual horas são: "))
 
 if 0 <= hora < 12:
-    print(f"Agora são {hora}h. Bom dia!")
+    print(f"Olá {nome}, Agora são {hora}h. Bom dia!")
 elif 12 <= hora < 18:
-    print(f"Agora são {hora}h. Boa tarde!")
+    print(f"Olá {nome}, Agora são {hora}h. Boa tarde!")
 elif 18 <= hora <= 24:
-     print(f"Agora são {hora}h. Boa noite!")
+     print(f"Olá {nome}, Agora são {hora}h. Boa noite!")
 else:
-    print("Coloque um horário válido (entre 0 e 24).")
+    print(f"{nome}, coloque um horário válido (entre 0 e 24).")
