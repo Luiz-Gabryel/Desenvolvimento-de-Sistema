@@ -13,9 +13,15 @@
 
 hora = int(input("Qual horas são: "))
 
-if 0 <= hora < 12:
-    print(f"Agora são {hora}h. Bom dia!")
-elif 12 <= hora < 18:
-    print(f"Agora são {hora}h. Boa tarde!")
-else:
-    print(f"Agora são {hora}h. Boa noite!")
+while True:
+    if 0 <= hora < 12:
+        print(f"Agora são {hora}h. Bom dia!")
+        break
+    elif 12 <= hora < 18:
+        print(f"Agora são {hora}h. Boa tarde!")
+        break
+    elif 18 <= 24:
+        print(f"Agora são {hora}h. Boa noite!")
+        break
+    else:
+        print("Coloque um horario valido")
