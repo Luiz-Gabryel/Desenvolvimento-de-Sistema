@@ -1,4 +1,4 @@
-#Programa onde dependendo do horario ele exiba a mensagem: Bom Dia, Boa Tarde, Boa Noite
+#Programa onde dependendo do horario ele exiba a mensagem: Bom Dia, Boa Tarde, Boa Noite.
 
 #dia = input ("Qual Periodo é? (Manha, Tarde, Noite) ")
 
