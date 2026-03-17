@@ -1,4 +1,4 @@
-#Sistema de classificação de idade.
+#sistema de classificação de idade.
 
 idade = int(input("Qual sua idade: "))
 
