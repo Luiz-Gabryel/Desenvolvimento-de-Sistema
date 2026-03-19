@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-pyautogui.press('super') #aperta uma tecla
+pyautogui.press('win') #aperta uma tecla
 pyautogui.write('Chorme', interval=0.25) #escreve na tela esse interval e para ele ir lento
 pyautogui.press('enter') 
 
