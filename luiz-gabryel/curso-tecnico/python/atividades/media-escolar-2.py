@@ -15,6 +15,7 @@ media = (nota1 + nota2) / 2
 #exibir sua media
 print(f"Sua Media foi: {media}")
 
+#verificar se sua media e >= 6
 if media >= 6:
     print("Voce foi aprovado com louvor")
 
