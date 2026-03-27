@@ -24,10 +24,10 @@ while True: #opções
     print("-"*30)
     opcao = input("Digite sua opção:")
 
-    if opcao == "1":  # olha os livros
+    if opcao == "1": 
         print("--- Livros ---")
     
-        if not livros: #ve se tem livros, se tem, ele mostra
+        if not livros: 
             print("Nenhum livro cadastrado.")
         else:
             for livro, quantidade in livros:
@@ -45,9 +45,9 @@ while True: #opções
 
     elif opcao == "3":
         busca = input("Digite o nome do livro: ")
-        encontrado = False # so muda se tiver um livro foi encontrado
-        for livro, quantidade in livros: #ve  toda a lista de livro, pegando o nome e quantidade
-            if livro == busca: # se tiver ele vai mostrar livro e quantidade
+        encontrado = False 
+        for livro, quantidade in livros: 
+            if livro == busca: 
                 print(f"{livro} - {quantidade} quantidade")
                 encontrado = True
                 break
