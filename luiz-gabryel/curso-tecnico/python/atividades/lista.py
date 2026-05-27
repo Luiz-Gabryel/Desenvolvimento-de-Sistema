@@ -1,3 +1,3 @@
 outra_lista = [40, 10, 30, 20]
-lista_organizada = sorted(outra_lista)
+lista_organizada = sorted(outra_lista)#ordena
 print("Nova lista organizada", lista_organizada)
